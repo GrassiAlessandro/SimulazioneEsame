@@ -11,10 +11,10 @@ test('GET / should return 200', async () => {
     expect(response.statusCode).toBe(200);
 });
 test('GET / should return 200', async () => {
-    const response = await request(app).get('/getArea?side1=2&side2=2');
+    const response = await request(app).get('/getArea?si=2&side2=2');
     expect(response.statusCode).toBe(200);
 });
 test('GET / should return 200', async () => {
-    const response = await request(app).get('/getArea?side1=2&side2=2');
+    const response = await request(app).get('/getArea?side1=2');
     expect(response.statusCode).toBe(200);
 });
