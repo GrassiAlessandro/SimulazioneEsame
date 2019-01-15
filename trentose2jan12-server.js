@@ -6,9 +6,6 @@ const app = express()
 app.use( bodyParser.json() )
 app.use(bodyParser.urlencoded({ extended: true }));
 
-const PORT = process.env.PORT || 3000
-
-app.listen(PORT, () => console.log('App listening on port '+ PORT))
 
 app.get('/getArea', (req, res) => {
     var array = []
@@ -19,3 +16,4 @@ app.get('/getArea', (req, res) => {
     res.json({"area":area})
 })
 
+module.exports = app
