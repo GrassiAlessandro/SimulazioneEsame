@@ -27,3 +27,9 @@ test('calculate Area [1]', () => {
 test('calculate Area NO PARAMS', () => {
     expect(area()).toBe(-1);
 });
+test('calculate Area [1,"bbb"]', () => {
+    expect(area([1,"bbb"])).toBe(-1);
+});
+test('calculate Area ["aaa",2]', () => {
+    expect(area(["aaa",2])).toBe(-1);
+});
