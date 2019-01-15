@@ -4,6 +4,7 @@
   "description": "",
   "main": "area.js",
   "scripts": {
+    "start" : "node server.js",
     "test": "jest"
   },
   "repository": {
@@ -20,5 +21,9 @@
     "express": "^4.16.4",
     "jest": "^23.6.0",
     "supertest": "^3.3.0"
+  },
+  "jest":{
+    "collectCoverage" : true,
+    "coverageReporters" : ["json", "html"]
   }
 }
