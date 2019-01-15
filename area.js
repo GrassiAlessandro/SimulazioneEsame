@@ -5,4 +5,4 @@ function getArea(params){
     else
         return -1
 }
-module.export = getArea
+module.exports = getArea

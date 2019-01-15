@@ -1,0 +1,24 @@
+{
+  "name": "simulazioneesame",
+  "version": "1.0.0",
+  "description": "",
+  "main": "area.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GrassiAlessandro/SimulazioneEsame.git"
+  },
+  "author": "Grassi Alessandro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GrassiAlessandro/SimulazioneEsame/issues"
+  },
+  "homepage": "https://github.com/GrassiAlessandro/SimulazioneEsame#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "jest": "^23.6.0",
+    "supertest": "^3.3.0"
+  }
+}
